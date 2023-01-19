@@ -1,0 +1,17 @@
+###
+POST http://localhost:8080/api/member
+Content-Type: application/json
+
+{
+    "name" : "손정욱",
+  "email": "todd@kakao.com"
+}
+
+###
+POST http://localhost:8080/api/auth
+Content-Type: application/json
+
+{
+  "email" : "todd@kakao.com",
+  "password" : "1234"
+}
